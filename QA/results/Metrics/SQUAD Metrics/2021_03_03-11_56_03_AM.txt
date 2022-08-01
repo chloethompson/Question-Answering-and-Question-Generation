@@ -1,0 +1,8 @@
+{'per_gpu_batch_size': 4, 'num_epochs': 4, 'learning_rate': 3e-05}
+Namespace(adam_epsilon=1e-08, cache_dir='', config_name='', data_dir=None, device=device(type='cuda'), do_eval=True, do_lower_case=True, do_train=True, doc_stride=128, eval_all_checkpoints=False, evaluate_during_training=False, fp16=False, fp16_opt_level='O1', gradient_accumulation_steps=1, lang_id=0, learning_rate=3e-05, local_rank=-1, logging_steps=500, max_answer_length=30, max_grad_norm=1.0, max_query_length=64, max_seq_length=384, max_steps=-1, model_name_or_path='bert-base-uncased', model_type='bert', n_best_size=20, n_gpu=4, no_cuda=False, null_score_diff_threshold=0.0, num_train_epochs=4.0, output_dir='results/Hypertuning/hypertune_11/', overwrite_cache=False, overwrite_output_dir=True, per_gpu_eval_batch_size=8, per_gpu_train_batch_size=4, predict_file='../Data/SQUAD/dev-v2.0.json', results_file='results/Hypertuning/2021_03_03-11_56_03_AM.txt', save_steps=10000, seed=42, server_ip='', server_port='', threads=1, tokenizer_name='', train_file='../Data/SQUAD/train-v2.0.json', verbose_logging=False, version_2_with_negative=True, warmup_steps=20568, weight_decay=0.0) 
+
+ Starting_Time: 2021-03-03 11:56:14.241565 
+
+{'exact': 65.31626379179652, 'f1': 69.14551670759155, 'total': 11873, 'HasAns_exact': 74.39271255060729, 'HasAns_f1': 82.06219970803521, 'HasAns_total': 5928, 'NoAns_exact': 56.265769554247264, 'NoAns_f1': 56.265769554247264, 'NoAns_total': 5945, 'best_exact': 65.31626379179652, 'best_exact_thresh': 0.0, 'best_f1': 69.14551670759178, 'best_f1_thresh': 0.0} 
+
+ Finish_Time: 2021-03-03 14:14:06.047625 

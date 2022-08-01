@@ -1,0 +1,6 @@
+Type,Average BLEU,Average Meteor,Num below Threshold,% of Total,Num of [CLS],Num of blanks
+SQuAD,0.035,0.024,839,0.142,317,114
+QuAC,0.038,0.021,4042,0.55,1641,525
+SQuAD Gen,0.152,0.098,1020,0.181,395,51
+QuAC Gen,0.176,0.088,394,0.429,121,0
+QuAC Gen SQuAD Pred,0.176,0.088,394,0.429,112,0
